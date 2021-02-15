@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	    
+    <!-- define the dependency -->
+    
+    <bean id="customer" class="Collection_constructor.customer">
+    
+    <constructor-arg name="names">
+    <list>
+    <value>sahil</value>
+    <value>ritik</value>
+    <value>sameer</value>
+    </list>
+    </constructor-arg>
+    
+    <constructor-arg name="Phno">
+    <set>
+    <value>7838305568</value>
+    <value>9818232433</value>
+    <value>4434832233</value>
+    </set>
+    </constructor-arg>
+    
+    <constructor-arg name="aadharNo">
+ 	<map> 
+	<entry key="7838305568" value="abc"/>
+ 	<entry key="9818232433" value="xyz"/>
+ 	<entry key="4434832233" value="efg"/>
+	</map> 
+	</constructor-arg>
+	
+	<constructor-arg name="email">
+ 	<props> 
+	<prop key="7838305568" >sahil@123</prop>
+ 	<prop key="9818232433" >ritik@123</prop>
+ 	<prop key="4434832233" >sam@123</prop>
+	</props> 
+	</constructor-arg> 
+    
+    
+    <constructor-arg name="address">
+ 	<map> 
+	<entry key="7838305568" value-ref="Address"/>
+	<entry key="9818232433" value-ref="Address"/>
+	<entry key="4434832233" value-ref="Address"/>
+	</map> 
+	</constructor-arg> 
+    
+    </bean>
+  	
+  	
+  	<bean id="Address" class="Collection_constructor.address">
+  	<constructor-arg name="city" value="Gurgaon"/>
+  	<constructor-arg name="house_no" value="1585"/>
+  	<constructor-arg name="state" value="Gurgaon"/>
+  	<constructor-arg name="pincode" value="122102"/>
+  	</bean>
+  
+  	
+    
+</beans>
