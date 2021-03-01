@@ -1,2 +1,2 @@
 # Spring Frameworks 
-# All ClassPractice and Assignmen Codes
+# All ClassPractice and Assignment Codes
