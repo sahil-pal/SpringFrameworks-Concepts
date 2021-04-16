@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+	body{
+		background:#add8e6;
+	}
+	
+	.description{
+		text-align:center;
+		font-size:35px;
+		color: darkgreen;
+		font-family:cursive;
+	}
+	
+	.block {
+  		display: block;
+  		width: 100%;
+  		border: solid black;
+  		background-color: #af3030;
+  		padding: 14px 28px;
+  		font-size: 25px;
+  		cursor: pointer;
+  		text-align: center;
+	}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+	body{
+		background-color: #66afa4;
+	}
+	h1{
+		color: blue;
+    	letter-spacing: 5px;
+    	font-family: monospace;
+    	font-size: 50px;
+	}
+	
+	table{
+		font-size:18px;
+		color: black;
+		font-family:Monaco;
+		padding: 30px 32px;
+		display: block;
+  		width: 93.8%;
+  		border: solid black;
+  		background-color: #af996a;
+	}
