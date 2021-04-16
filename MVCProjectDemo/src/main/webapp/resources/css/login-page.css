@@ -1,0 +1,35 @@
+	body{
+		background-color: orange;
+		background-image:url(/images/spring-logo.jpg);
+	}
+	
+	form{
+		padding: 20px;
+		background-color: lightyellow;
+		margin-left:300px;
+		margin-right:300px;
+		width:50%;
+		height:100%;
+		font-family: monospace;
+	}
+	
+	tr{
+		border:1px solid black;
+		width:50%;
+		height:200%;
+	}
+	
+	td{
+		border:1px solid black;
+		text-align:left;
+		width:60%;
+		height:200%;
+	}
+	
+	h1{
+		font-family:fantasy;
+		text-align:center;
+	}
+
+
+	
