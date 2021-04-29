@@ -1,0 +1,8 @@
+Program Details : 
+
+Using the 3rd approach Java Config
+
+--> Create Config.java file
+1. @Configuration annotaion so that spring identify it as configuration file
+2. Add Component Scan on the qualified package name
+3. Inside the class create method for bean creation
