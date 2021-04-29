@@ -1,0 +1,13 @@
+Project Details :
+
+--> Loan Organization System for new and existing user.
+
+1. New user can apply for the loan by adding their information
+2. Existing user can view their loan application status using their loan application number
+
+--> New User
+
+1. Track of each stage is implemented.
+2. Validation check on information provided by the user is implemented.
+3. Defaulter list verification is implemented.
+4. Credit score on the basis of list of assets and liabilities is implemented.
