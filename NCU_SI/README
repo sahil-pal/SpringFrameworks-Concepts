@@ -1,0 +1,8 @@
+Program Details :
+
+Dependency injection implementation using the setter/getter approach
+
+<property> tag is used in spring.xml for the following.
+
+1. You can pass value to the class variable.
+2. You can pass the object.
