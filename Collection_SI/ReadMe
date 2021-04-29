@@ -1,0 +1,5 @@
+Program details : 
+
+Collections injection in spring project using the getter/setter approach.
+
+<property> tag is used for passing the data using getter/setter
