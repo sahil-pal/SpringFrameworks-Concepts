@@ -3,6 +3,7 @@ package com.ncu.model;
 import javax.validation.constraints.NotNull;
 
 import com.ncu.validation.CourseCode;
+import com.ncu.validation.Password;
 
 
 public class student {
@@ -18,6 +19,9 @@ public class student {
 	
 	@CourseCode(value="CSE,ECE,CSL,SOM",message="Enter valid Course id starting with CSE,ECE,CSL,SOM")
 	String courseCode;
+	
+	@Password(message="Enter valid Password")
+	String password;
 
 	public String getFirstName() {
 		return firstName;
@@ -50,4 +54,14 @@ public class student {
 	public void setCourseCode(String courseCode) {
 		this.courseCode = courseCode;
 	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
 }

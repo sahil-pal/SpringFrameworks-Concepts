@@ -1,3 +1,4 @@
+<! DOCTYPE html>
 <html>
 <head>
 
@@ -22,7 +23,9 @@
 <body>
 
 <h1>This is Custom Validation project</h1>
-<button type="button" class="block"><a href="register"> Register Here! </a></button>
+<br>
+<button type="button" class="block"><a href="register">Register Here!</a></button><br>
+
 
 </body>
 </html>

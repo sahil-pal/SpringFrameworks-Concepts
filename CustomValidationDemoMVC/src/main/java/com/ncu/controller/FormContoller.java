@@ -29,7 +29,7 @@ public class FormContoller {
 	}
 	
 	@RequestMapping("/register")
-	public String showForm(Model model) {
+	public String showFormEnglish(Model model) {
 		
 		Map<String,String> year = new LinkedHashMap<String,String>();
 		year.put("first","I");
