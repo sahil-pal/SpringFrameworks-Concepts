@@ -1,0 +1,5 @@
+Program details : 
+
+Collections injection in spring project using the constructor approach.
+
+<constructor-arg> tag is used for passing the data using constructor approach.
