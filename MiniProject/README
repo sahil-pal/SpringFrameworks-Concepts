@@ -7,3 +7,10 @@ It is an console based app that target to solve the management,organization and 
 3. Use an IDE - Eclipse of IntelliJ and import the project.
 3. Configure your Database driver, url , username and password in spring.xml file
 4. Open driver.java and run the file. 
+
+## Dependencies used
+1. Java spring framework
+2. javax annotations
+3. my-sql connector
+
+## How App looks like 
