@@ -1,13 +1,7 @@
-Project Details :
+# Loan Organization System
+It is an console based app that target to solve the management,organization and processing of loans in the banking sector and provide easy application service to the user.
 
---> Loan Organization System for new and existing user.
-
-1. New user can apply for the loan by adding their information
-2. Existing user can view their loan application status using their loan application number
-
---> New User
-
-1. Track of each stage is implemented.
-2. Validation check on information provided by the user is implemented.
-3. Defaulter list verification is implemented.
-4. Credit score on the basis of list of assets and liabilities is implemented.
+## How to run the app 
+1. Download the zip file of the project and extract it.
+2. Use an IDE - Eclipse of IntelliJ and import the project.
+3. 
