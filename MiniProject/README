@@ -3,5 +3,7 @@ It is an console based app that target to solve the management,organization and 
 
 ## How to run the app 
 1. Download the zip file of the project and extract it.
-2. Use an IDE - Eclipse of IntelliJ and import the project.
-3. 
+2. Use sql query file to create the database for the application.
+3. Use an IDE - Eclipse of IntelliJ and import the project.
+3. Configure your Database driver, url , username and password in spring.xml file
+4. Open driver.java and run the file. 
