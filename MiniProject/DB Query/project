@@ -1,0 +1,36 @@
+use spring;
+
+
+create table user(
+applinum varchar(10) NOT NULL,
+username varchar(20) NOT NULL,
+age varchar(5),
+phonenum varchar(10),
+email varchar(20),
+loan_type varchar(15),
+address varchar(500),
+assets varchar(500),
+docs varchar(500),
+liabilities varchar(500),
+creditScore varchar(10),
+state varchar(10));
+
+select * from user;
+
+create table defaulter(
+aadharnum varchar(12),
+pannum varchar(11));
+insert into defaulter values('098765432111','ajmpp204606');
+select * from defaulter;
+
+create table loan_criteria(
+loan_type varchar(50),
+credit varchar(5));
+
+insert into loan_criteria values('car-loan',420);
+insert into loan_criteria values('house-loan',440);
+insert into loan_criteria values('education-loan',410);
+insert into loan_criteria values('business-loan',450);
+select * from loan_criteria;
+
+
