@@ -32,9 +32,9 @@
 	
 	<bean id ="database" class="MiniProject.dataBase">
 		<property name = "register" value = "com.mysql.cj.jdbc.Driver"/>
-		<property name = "database" value ="jdbc:mysql://localhost:3306/spring"/>
+		<property name = "database" value ="URL/>
     	<property name = "username" value = "root"/>
-    	<property name = "password" value = "Admin@12345"/>
+    	<property name = "password" value = "********"/>
     </bean>
 
     
